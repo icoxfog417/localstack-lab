@@ -1,12 +1,12 @@
-# localstack on Amazon SageMaker Studio Lab
+# LocalStack on Amazon SageMaker Studio Lab
 
 ![top.PNG](top.PNG)
 
-The notebook to run the [localstack](https://github.com/localstack/localstack) on [Amazon SageMaker Studio Lab](https://studiolab.sagemaker.aws/).
+The notebook to run the [LocalStack](https://github.com/localstack/localstack) on [Amazon SageMaker Studio Lab](https://studiolab.sagemaker.aws/).
 
 **Benefit**
 
-You can get the environment to test AWS API without AWS account and fee and invoke it by 1 click. SageMaker Studio Lab has Terminal and the static storage. If enables you to execute localstack and the environment and artifacts are saved if you close the session.
+You can get the environment to test AWS API without AWS account and fee and invoke it by 1 click. SageMaker Studio Lab has Terminal and the static storage. If enables you to execute LocalStack and the environment and artifacts are saved if you close the session.
 
 ## Setup
 
