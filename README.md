@@ -13,14 +13,13 @@ You can get the environment to test AWS API without AWS account and fee and invo
 [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/icoxfog417/localstack-lab/blob/main/localstack.ipynb)
 
 1. Push the Open in Studio Lab button above and clone entire repository.
-2. Clone entire repository.
    * If you do not have Studio Lab account, [please requrest it from the form](https://studiolab.sagemaker.aws/requestAccount).
-3. Create conda environment from `environment.yml` by `conda env create -f environment.yml`.
-4. Create `.env` file refered by `dotenv.txt`.
+2. Create conda environment from `environment.yml` by `conda env create -f environment.yml`.
+3. Copy `dotenv.txt` as `.env`.
+4. Run `aws configure --profile default` and set variable according to [localstack document](https://docs.localstack.cloud/integrations/aws-cli/#setting-up-local-region-and-credentials-to-run-localstack)
 5. Run `SERVICES=s3,lambda DEBUG=1 localstack start --host` from the Terminal.
    * I could not confirm other services works fine. There is the restrict of service without docker. Please refer [question: Starting localstack without docker installation](https://github.com/localstack/localstack/issues/4748)
 6. Confirm `localstack status services` shows available services.
-7. Run `aws configure --profile default` and set variable according to [localstack document](https://docs.localstack.cloud/integrations/aws-cli/#setting-up-local-region-and-credentials-to-run-localstack)
 7. Enjoy [notebook!](localstack.ipynb)! 
 
 ## Tips
