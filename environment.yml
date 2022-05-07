@@ -1,0 +1,11 @@
+name: localstack
+
+dependencies:
+  - ipython
+  - ipykernel
+  - python
+  - sasl
+  - pip
+  - pip:
+    - localstack
+    - localstack[runtime]
