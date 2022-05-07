@@ -13,7 +13,7 @@ You can get the environment to test AWS API without AWS account and fee and invo
 [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/icoxfog417/localstack-lab/blob/main/localstack.ipynb)
 
 1. Push the Open in Studio Lab button above and clone entire repository.
-   * If you do not have Studio Lab account, [please requrest it from the form](https://studiolab.sagemaker.aws/requestAccount).
+   * If you do not have Studio Lab account, **[please requrest the account from the form](https://bit.ly/3OZJEFv)**.
 2. Create conda environment from `environment.yml` by `conda env create -f environment.yml`.
 3. Copy `dotenv.txt` as `.env`.
 4. Run `aws configure --profile default` and set variable according to [localstack document](https://docs.localstack.cloud/integrations/aws-cli/#setting-up-local-region-and-credentials-to-run-localstack)
