@@ -1,3 +1,3 @@
 SERVICES=s3,lambda
-CONTAINER_VAR_LIBS_FOLDER=/home/studio-lab-user/localstack/host
-CONTAINER_CACHE_FOLDER=/home/studio-lab-user/localstack/host/cache
+CONTAINER_VAR_LIBS_FOLDER=/home/studio-lab-user/localstack-lab/host
+CONTAINER_CACHE_FOLDER=/home/studio-lab-user/localstack-lab/host/cache
